@@ -1,0 +1,47 @@
+.grid-container {
+  margin: 20px;
+}
+
+.header-and-form {
+  display: flex;
+  align-items: center;
+}
+
+/* Optionally, you can add some spacing between the header and the form */
+.mat-h1 {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+
+.dashboard-card {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  right: 2%;
+  bottom: 2%;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.inner-card {
+  /* background-color: rgb(69, 212, 153); */
+  flex-grow: 1;
+  padding: 2%;
+  
+}
+.inner-card-fab {
+  align-self: center;
+}
+
+.outer-card-fab {
+  align-self: center;
+}
+.mat-h2 {
+  color: white;
+  text-shadow: 2%;
+}
+
